@@ -1,0 +1,8 @@
+services:
+  strapi:
+    image: strapi:app
+    container_name: strapi
+    ports:
+      - 1337:1337
+    restart: always
+
